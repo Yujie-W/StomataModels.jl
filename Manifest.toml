@@ -23,9 +23,9 @@ version = "0.5.11"
 
 [[ConstrainedRootSolvers]]
 deps = ["BenchmarkTools", "DocStringExtensions", "Parameters", "Test"]
-git-tree-sha1 = "15f11285f91d40eefddeb14155e598fe495e1c2d"
+git-tree-sha1 = "2c1917b17a196422607d635f458c3a063a41a292"
 uuid = "7e2492bd-0955-4089-8696-9df2af57a479"
-version = "0.0.1"
+version = "0.0.2"
 
 [[Dates]]
 deps = ["Printf"]
