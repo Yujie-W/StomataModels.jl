@@ -79,9 +79,9 @@ version = "0.12.1"
 
 [[Parsers]]
 deps = ["Dates"]
-git-tree-sha1 = "b417be52e8be24e916e34b3d70ec2da7bdf56a68"
+git-tree-sha1 = "6fa4202675c05ba0f8268a6ddf07606350eda3ce"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "1.0.12"
+version = "1.0.11"
 
 [[Photosynthesis]]
 deps = ["BenchmarkTools", "CLIMAParameters", "DocStringExtensions", "Parameters", "Test", "WaterPhysics"]
@@ -95,9 +95,9 @@ uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[PlantHydraulics]]
 deps = ["BenchmarkTools", "CLIMAParameters", "ConstrainedRootSolvers", "DocStringExtensions", "Parameters", "Statistics", "Test", "WaterPhysics"]
-git-tree-sha1 = "4e99531f5f30a303de9e8af61fa8bd5a479b8aad"
+git-tree-sha1 = "4a3d792d4bc5d82d3386b2156fa6c6a78271f1ad"
 uuid = "d6acb6ec-f7e4-548d-b108-f8a3d9a6ce13"
-version = "0.2.1"
+version = "0.1.1"
 
 [[Printf]]
 deps = ["Unicode"]
