@@ -414,7 +414,7 @@ version = "0.33.21"
 deps = ["ConstrainedRootSolvers", "DocStringExtensions", "EmeraldConstants", "Photosynthesis", "PkgUtility", "PlantHydraulics", "Test", "UnPack", "WaterPhysics"]
 path = ".."
 uuid = "5fa394f2-99ce-4e3a-9704-be7b3526889d"
-version = "0.1.11"
+version = "0.1.12"
 
 [[TOML]]
 deps = ["Dates"]
