@@ -195,7 +195,7 @@ function stomatal_conductance(
     @unpack p_a, p_atm, p_H₂O = envir;
     vpd = max(FT(0.001), p_sat - p_H₂O);
 
-    return g0 + p_atm * FT(1e-6) / p_a * (1 + g1/sqrt(vpd)) * β * An
+    return g0 + p_atm * FT(1e-6) / p_a * (1 + g1/sqrt(vpd)) * β * An * FT(1.6)
 end
 
 
@@ -212,7 +212,7 @@ function stomatal_conductance(
     @unpack p_a, p_atm, p_H₂O = envir;
     vpd = max(FT(0.001), p_sat - p_H₂O);
 
-    return g0 .+ p_atm * FT(1e-6) / p_a * (1 + g1/sqrt(vpd)) * β .* An
+    return g0 .+ p_atm * FT(1e-6) / p_a * (1 + g1/sqrt(vpd)) * β .* An * FT(1.6)
 end
 
 
@@ -230,5 +230,5 @@ function stomatal_conductance(
     @unpack p_a, p_atm, p_H₂O = envir;
     vpd = max(FT(0.001), p_sat - p_H₂O);
 
-    return g0 + p_atm * FT(1e-6) / p_a * (1 + g1/sqrt(vpd)) * β * An[ind]
+    return g0 + p_atm * FT(1e-6) / p_a * (1 + g1/sqrt(vpd)) * β * An[ind] * FT(1.6)
 end
