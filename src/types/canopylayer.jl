@@ -77,9 +77,9 @@ Base.@kwdef mutable struct CanopyLayer{FT<:AbstractFloat}
     "Maximal leaf diffusive conductance at 298.15 K `[mol m⁻² s⁻¹]`"
     g_max25::FT = FT(0.8)
     "Minimal leaf diffusive conductance `[mol m⁻² s⁻¹]`"
-    g_min  ::FT = FT(0.025)
+    g_min  ::FT = FT(0.001)
     "Minimal leaf diffusive conductance at 298.15 K `[mol m⁻² s⁻¹]`"
-    g_min25::FT = FT(0.025)
+    g_min25::FT = FT(0.001)
 
     # CO₂ and H₂O pressures, different for each leaf
     "Leaf internal CO₂ partial pressure `[Pa]`"
